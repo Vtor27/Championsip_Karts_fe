@@ -1,0 +1,29 @@
+/* Variables CSS globales para usar en toda la app */
+:root {
+  --racing-red: #e10600;     // Rojo F1
+  --racing-black: #15151e;   // Negro carbono
+  --racing-gold: #ffd700;    // Oro para 1º puesto
+  --racing-silver: #c0c0c0;  // Plata para 2º puesto
+  --racing-bronze: #cd7f32;  // Bronce para 3º puesto
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;  
+}
+
+/* Clases para destacar las posiciones del podio */
+.position-1 {
+  background: linear-gradient(135deg, var(--racing-gold) 0%, #ffed4e 100%);
+  font-weight: bold;
+}
+
+.position-2 {
+  background: linear-gradient(135deg, var(--racing-silver) 0%, #e8e8e8 100%);
+  font-weight: bold;
+}
+
+.position-3 {
+  background: linear-gradient(135deg, var(--racing-bronze) 0%, #e6a860 100%);
+  font-weight: bold;
+}
